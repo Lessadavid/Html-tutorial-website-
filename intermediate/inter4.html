@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/style.css" />
+    <title>Tutorial</title>
+  </head>
+
+  <header>
+    <a href="/home.html" class="logo"
+      ><img src="/images/logo-color1.png" alt=""
+    /></a>
+    <ul class="navlist">
+      <li><a href="/home.html">Home</a></li>
+      <li><a href="/courses.html">Courses</a></li>
+      <li><a href="/live.html">Live session</a></li>
+      <li><a href="/mentor.html">Mentor</a></li>
+
+      <li>
+        <label for="serach"><a href="">Search</a></label>
+      </li>
+      <li><input type="text" placeholder="Search.." /></li>
+    </ul>
+    <div class="btn">
+      <button><b>login</b></button>
+      <button><b>Signin</b></button>
+    </div>
+  </header>
+  <body>
+    <div class="d-flex j-content">
+      <div class="wrapper">
+        <div class="sidebar">
+          <ol>
+            <li><a href="/intermediate/inter.html"> Forms</a></li>
+            <li><a href="/intermediate/inter2.html">Media Elements</a></li>
+            <li><a href="/intermediate/inter3.html"> Semantic Elements</a></li>
+            <li>
+              <a href="/intermediate/inter4.html"
+                >Tables and Forms Advanced Techniques</a
+              >
+            </li>
+            <li><a href="/intermediate/inter5.html">Metadata and SEO</a></li>
+            <li>
+              <a href="/intermediate/inter6.html"> Accessibility (ARIA)</a>
+            </li>
+            <li><a href="/intermediate/inter7.html">Data Attributes</a></li>
+            <li><a href="/intermediate/inter8.html">Character Entities</a></li>
+            <li><a href="/intermediate/inter9.html"> Templating</a></li>
+            <li>
+              <a href="/intermediate/inter10.html">
+                APIs and Embedding Content</a
+              >
+            </li>
+            <li>
+              <a href="/intermediate/inter11.html">Responsive Web Design</a>
+            </li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="top">
+        <h3>Tables and Forms Advanced Techniques</h3>
+
+        <iframe
+          width="760"
+          height="450"
+          src="https://www.youtube.com/embed/K21yqCmo6Qg?si=RdT_coo7I3_IWgCn"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+
+        <div class="para">
+          <p>
+            Tables and forms are essential elements in HTML used for organizing
+            and collecting data. In this section, I'll detail some advanced
+            techniques for working with tables and forms in HTML.
+          </p>
+
+          <div class="tag">
+            <h3>Table Headers</h3>
+            <ul>
+              <li>
+                Use the &ltth> element within the &ltthead> section to define
+                table headers. This provides semantic meaning and aids in
+                accessibility.
+              </li>
+
+              <li>Example:</li>
+            </ul>
+            <div class="example">
+              &lttable> <br />
+              &ltthead> <br />
+              &lttr><br />
+              &ltth>Product&lt/th><br />
+              &ltth>Price&lt/th><br />
+              &ltth>Quantity&lt/th><br />
+              &lt/tr><br />
+              &lt/thead><br />
+              &lttbody><br />
+              &lt!-- Table data goes here --&gt<br />
+              &lt/tbody><br />
+              &lt/table><br />
+            </div>
+          </div>
+          <div class="tag">
+            <h3>Table Caption (&ltcaption>):</h3>
+            <ul>
+              <li>
+                Add a &ltcaption> element to provide a title or description for
+                the table. Captions improve accessibility and clarify table
+                content.
+              </li>
+              <li>Example:</li>
+            </ul>
+            <div class="example">
+              &lttable> <br />
+              &ltcaption>Monthly Sales Report &lt/caption><br />
+              &lt!-- Table headers and data -- &gt<br />
+              &lt/table>
+            </div>
+          </div>
+          <div class="tag">
+            <h3>Table Colspans and Rowspsans:</h3>
+            <ul>
+              <li>
+                Use the colspan and rowspan attributes to merge table cells
+                horizontally or vertically.
+              </li>
+              <li>Example:</li>
+            </ul>
+            <div class="example">
+              &lttable> <br />
+              &lttr><br />
+              &lttd rowspan="2">Merged Cell&lt/td><br />
+              &lttd>Cell 1&lt/td><br />
+              &lt/tr><br />
+              &lttr><br />
+              &lttd>Cell 2 &lt/td><br />
+              &lt/tr><br />
+              &lt/table><br />
+            </div>
+          </div>
+          <div class="tag">
+            <h3>Styling Tables with CSS:</h3>
+            <ul>
+              <li>
+                Apply CSS styles to tables for custom formatting, such as
+                adjusting cell spacing, borders, and background colors.
+              </li>
+              <li>Example:</li>
+            </ul>
+            <div class="example">
+              &ltstyle> <br />
+              table {<br />
+              border-collapse: collapse;<br />
+              width: 100%;<br />
+              }<br />
+              th, td {<br />
+              border: 1px solid #ddd;<br />
+              padding: 8px;<br />
+              text-align: left;<br />
+              }<br />
+              &lt/style>
+            </div>
+          </div>
+        </div>
+
+        <div class="d-flex j-content btn1">
+          <a href="/intermediate/inter3.html"><button>&lt Prevoius</button></a>
+          <a href="/intermediate/inter5.html"><button>Next &gt</button></a>
+        </div>
+      </div>
+      <div class="right-side1">
+        <h2>Participitate in live session</h2>
+        <img src="/images/live.avif" alt="" />
+        <a href="/live.html" target="_blank"><button>Register Now</button></a>
+      </div>
+    </div>
+  </body>
+</html>
