@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tutorial</title>
+  </head>
+
+  <header>
+    <a href="home.html" class="logo"><img src="./images/logo-color1.png" alt="" /></a>
+    <ul class="navlist">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="live.html">Live session</a></li>
+      <li><a href="mentor.html">Mentor</a></li>
+
+      <li>
+        <label for="serach"><a href="">Search</a></label>
+      </li>
+      <li><input type="text" placeholder="Search.." /></li>
+    </ul>
+    <div class="btn">
+      <button><b>login</b></button>
+      <button><b>Signin</b></button>
+    </div>
+  </header>
+  <body>
+    <div class="d-flex j-content">
+      <div class="wrapper">
+        <div class="sidebar">
+          <ol>
+            <li><a href="inter.html"> Forms</a></li>
+            <li><a href="inter2.html">Media Elements</a></li>
+            <li><a href="inter3.html"> Semantic Elements</a></li>
+            <li>
+              <a href="inter4.html">Tables and Forms Advanced Techniques</a>
+            </li>
+            <li><a href="inter5.html">Metadata and SEO</a></li>
+            <li><a href="inter6.html"> Accessibility (ARIA)</a></li>
+            <li><a href="inter7.html">Data Attributes</a></li>
+            <li><a href="inter8.html">Character Entities</a></li>
+            <li><a href="inter9.html"> Templating</a></li>
+            <li><a href="inter10.html"> APIs and Embedding Content</a></li>
+            <li><a href="inter11.html">Responsive Web Design</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="top">
+        
+        <h3>Media Elements</h3>
+
+        <iframe
+          width="760"
+          height="450"
+          src="https://www.youtube.com/embed/9h8Pfnt7tio?si=OZ3u1sPzSY20vTJ2"
+          title="YouTube video player"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+
+        <div class="para">
+          <p>
+            Media elements in HTML refer to the elements used for embedding
+            multimedia content like audio and video into web pages. These
+            elements allow web developers to provide rich and engaging
+            multimedia experiences to their website visitors. The primary media
+            elements in HTML are &ltaudio&gt and &ltvideo&gt. Let's explore them
+            in detail:
+          </p>
+
+          <div class="tag">
+            <h3>&ltaudio&gt Element:</h3>
+            <ul>
+              <li>
+                The &ltaudio&gt element is used for embedding audio content,
+                such as music, sound effects, or podcasts, directly into a web
+                page.
+              </li>
+              <li>Attributes:</li>
+              <li><b>src:</b>Specifies the source URL of the audio file.</li>
+              <li>
+                <b>controls:</b>Displays audio playback controls (play, pause,
+                volume, etc.) to the user.
+              </li>
+              <li>
+                <b>autoplay:</b>Automatically starts playing the audio when the
+                page loads (use with caution).
+              </li>
+              <li><b>loop:</b> Enables continuous looping of the audio.</li>
+
+              <li>Example:</li>
+            </ul>
+            <div class="example">
+              &ltaudio src="music.mp3" controls> <br />
+              Your browser does not support the audio element. <br />
+              &lt/audio&gt
+            </div>
+          </div>
+          <div class="tag">
+            <h3>&ltvideo&gt Element</h3>
+            <ul>
+              <li>
+                The &ltvideo&gt element is used for embedding video content,
+                such as movies, video clips, or video tutorials, into a web
+                page. structured menus.
+              </li>
+              <li>Attributes:</li>
+              <li><b>src:</b> Specifies the source URL of the video file.</li>
+              <li>
+                <b>controls:</b>Displays video playback controls (play, pause,
+                volume, etc.) to the user.
+              </li>
+              <li>
+                <b>autoplay:</b>Automatically starts playing the audio when the
+                page loads (use with caution).
+              </li>
+              <li><b>loop:</b> Enables continuous looping of the audio.</li>
+              <li>
+                <b>width and height:</b> Define the dimensions of the video
+                player.
+              </li>
+              <li>Example:</li>
+            </ul>
+            <div class="example">
+              &lt video src="video.mp4" controls width="640" height="360"><br />
+              Your browser does not support the video element. <br />
+              &lt/video&gt
+            </div>
+          </div>
+          <div class="tag">
+            <h3>File Types:</h3>
+            <ul>
+              <li>
+                HTML5 supports various audio and video formats, including MP3,
+                Ogg, WebM for audio, and MP4, WebM, Ogg for video. It's a good
+                practice to provide multiple formats to ensure compatibility
+                across different browsers. looks.
+              </li>
+             
+          </div>
+          <div class="tag">
+            <h3>Accessibility:  </h3>
+            <ul>
+              <li>
+                When using media elements, provide text alternatives using the &lttrack> element for closed captions and subtitles, or by using the alt attribute for audio content.
+              <li>Example:</li>
+            </ul>
+           
+          </div>
+          
+        </div>
+
+        <div class="d-flex j-content btn1">
+          <a href="inter.html"><button>&lt Prevoius</button></a>
+          <a href="inter3.html"><button>Next &gt</button></a>
+        </div>
+      </div>
+      <div class="right-side1">
+        <h2>Participitate in live session</h2>
+        <img src="./images/live.avif" alt="" />
+        <a href="live.html" target="_blank"><button>Register Now</button></a>
+      </div>
+    </div>
+  </body>
+</html>

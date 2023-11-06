@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tutorial</title>
+  </head>
+
+  <header>
+    <a href="home.html" class="logo"><img src="./images/logo-color1.png" alt="" /></a>
+    <ul class="navlist">
+      <li><a href="home.html">Home</a></li>
+      <li><a href="courses.html">Courses</a></li>
+      <li><a href="live.html">Live session</a></li>
+      <li><a href="mentor.html">Mentor</a></li>
+
+      <li>
+        <label for="serach"><a href="">Search</a></label>
+      </li>
+      <li><input type="text" placeholder="Search.." /></li>
+    </ul>
+    <div class="btn">
+      <button><b>login</b></button>
+      <button><b>Signin</b></button>
+    </div>
+  </header>
+  <body>
+    <div class="d-flex j-content">
+      <div class="wrapper">
+        <div class="sidebar">
+          <ol>
+            <li><a href="inter.html"> Forms</a></li>
+            <li><a href="inter2.html">Media Elements</a></li>
+            <li><a href="inter3.html"> Semantic Elements</a></li>
+            <li>
+              <a href="inter4.html">Tables and Forms Advanced Techniques</a>
+            </li>
+            <li><a href="inter5.html">Metadata and SEO</a></li>
+            <li><a href="inter6.html"> Accessibility (ARIA)</a></li>
+            <li><a href="inter7.html">Data Attributes</a></li>
+            <li><a href="inter8.html">Character Entities</a></li>
+            <li><a href="inter9.html"> Templating</a></li>
+            <li><a href="inter10.html"> APIs and Embedding Content</a></li>
+            <li><a href="inter11.html">Responsive Web Design</a></li>
+          </ol>
+        </div>
+      </div>
+
+      <div class="top">
+        <h3>Accessibility (ARIA)</h3>
+
+        <iframe width="760" height="450" src="https://www.youtube.com/embed/0hqhAIjE_8I?si=l6DjDZU7fLDZY-f6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+        <div class="para">
+          <p>
+            Accessibility in web development is about making websites and web applications usable and understandable by people with disabilities. The Web Content Accessibility Guidelines (WCAG) provide a set of guidelines and best practices for creating accessible web content. Accessible Rich Internet Applications (ARIA) is a set of attributes that can be added to HTML elements to improve accessibility for users with disabilities. Here, we'll explore ARIA in detail.
+          </p>
+          <h1>Key ARIA Attributes:</h1>
+          <div class="tag">
+            <h3>1.role Attribute:</h3>
+            <ul>
+              <li>
+                Defines the role or purpose of an HTML element.
+              </li>
+              <li>
+                Example: <b> &ltdiv role="button">Click me&lt/div></b> indicates that the &ltdiv> element functions as a button.
+              </li>
+              
+          </div>
+          <div class="tag">
+            <h3>2.aria-label Attribute:</h3>
+            <ul>
+              <li>
+                Provides a text label for an element when the text content alone is not sufficient for conveying its purpose.
+              </li>
+              <li>
+                Example: <b> &ltbutton aria-label="Close">X&lt/button>Click me&lt/div></b> indicates that the &ltdiv> element functions as a button.
+              </li>
+              
+          </div>
+          <div class="tag">
+            <h3>3.aria-labelledby Attribute:</h3>
+            <ul>
+              <li>
+                References another element on the page (usually an &lth1> or other heading) as the label for the current element.
+              </li>
+              <li>
+                Example: <b> &ltdiv id="section1">Section 1&lt/div> &ltdiv aria-labelledby="section1">Content of Section 1&lt/div></b>
+              </li>
+              
+          </div>
+          <div class="tag">
+            <h3>4.aria-hidden Attribute:</h3>
+            <ul>
+              <li>
+                ndicates whether an element should be exposed to assistive technologies.
+              </li>
+              <li>
+                Example: <b> &ltdiv aria-hidden="true">This content is hidden from screen readers.&lt/div></b>
+              </li>
+              
+          </div>
+          <div class="tag">
+            <h3>5.aria-describedby Attribute:</h3>
+            <ul>
+              <li>
+                References another element or elements that provide additional description or information about the current element.
+              </li>
+              <li>
+                Example: <b> &ltinput type="text" aria-describedby="instructions"> &ltp id="instructions">Enter your username&lt/p></b>
+              </li>
+              
+          </div>
+          <div class="tag">
+            <h3>6.aria-labelledby Attribute:</h3>
+            <ul>
+              <li>
+                References another element on the page (usually an &lth1> or other heading) as the label for the current element.
+              </li>
+              <li>
+                Example: <b> &ltdiv id="section1">Section 1&lt/div> &ltdiv aria-labelledby="section1">Content of Section 1&lt/div></b>
+              </li>
+              
+          </div>
+          
+          
+          
+        </div>
+        
+
+        <div class="d-flex j-content btn1">
+          <a href="inter5.html"><button>&lt Prevoius</button></a>
+          <a href="inter7.html"><button>Next &gt</button></a>
+        </div>
+      </div>
+      <div class="right-side1">
+        <h2>Participitate in live session</h2>
+        <img src="./images/live.avif" alt="" />
+        <a href="live.html" target="_blank"><button>Register Now</button></a>
+      </div>
+    </div>
+  </body>
+</html>
